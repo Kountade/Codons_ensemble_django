@@ -58,7 +58,9 @@ MIDDLEWARE = [
 
 CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOWED_ORIGINS = [
-    "http://192.168.0.161:3000"
+    "http://192.168.0.161:3000",
+    "https://codons-ensemble-django-react.onrender.com"
+
 ]
 ROOT_URLCONF = "backend.urls"
 
